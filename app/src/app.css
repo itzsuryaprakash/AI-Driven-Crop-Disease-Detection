@@ -1,0 +1,112 @@
+/* App.css */
+
+/* General Styles */
+.App {
+  background-color: #000;  /* Black background */
+  color: #d4ed91;  /* Light green text */
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+  background-color: #000;  /* Black header background */
+}
+
+.header-logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header-title {
+  color: #d4ed91;  /* Light green header title */
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icon {
+  color: #d4ed91;  /* Light green icons */
+}
+
+.search-bar {
+  color: #d4ed91;  /* Light green text */
+  border: 1px solid #d4ed91;  /* Light green border */
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-right: 8px;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 64px);
+}
+
+.scanner-section {
+  padding: 15px;
+  background-color: #222121;  /* Dark grey background */
+  text-align: center;
+  color: #d4ed91;  /* Light green text */
+  border-radius: 8px;
+}
+
+/* Image Upload Styles */
+.file-input {
+  display: none;
+}
+
+.image-preview {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.preview-image {
+  width: 50%;
+  height: auto;
+  border: 1px solid #d4ed91;  /* Light green border */
+}
+
+.upload-instructions {
+  margin-top: 10px;
+  color: #d4ed91;  /* Light green instructions */
+}
+
+/* Submit Button Styles */
+.submit-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn {
+  background-color: #d4ed91;  /* Light green button */
+  color: #000;  /* Black text on button */
+}
+
+/* Prediction Result Styles */
+.prediction-result {
+  text-align: center;
+  margin-top: 20px;
+  color: #d4ed91;  /* Light green text */
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #000;  /* Black footer background */
+  color: #d4ed91;  /* Light green footer text */
+}
